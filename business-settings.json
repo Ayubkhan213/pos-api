@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "key": "business_name",
+    "value": "My Gourmet POS Cafe"
+  },
+  {
+    "id": 2,
+    "key": "tax_rate",
+    "value": "20.0"
+  },
+  {
+    "id": 3,
+    "key": "currency",
+    "value": "GBP"
+  },
+  {
+    "id": 4,
+    "key": "currency_symbol",
+    "value": "£"
+  }
+]
