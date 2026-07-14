@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Dairy",
+    "description": "Milk, butter, cream and cheese",
+    "parent_id": null
+  },
+  {
+    "id": 2,
+    "name": "Beverage Raw Materials",
+    "description": "Coffee beans, tea leaves, syrups",
+    "parent_id": null
+  },
+  {
+    "id": 3,
+    "name": "Meat & Proteins",
+    "description": "Beef patties, chicken breast, bacon",
+    "parent_id": null
+  },
+  {
+    "id": 4,
+    "name": "Bakery",
+    "description": "Breads, burger buns, wraps",
+    "parent_id": null
+  }
+]
