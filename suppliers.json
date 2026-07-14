@@ -1,0 +1,13 @@
+[
+  {
+    "id": 1,
+    "user_id": 1,
+    "name": "Fresh Foods Ltd",
+    "company": "Fresh Foods Distribution",
+    "email": "orders@freshfoods.com",
+    "phone": "+44 20 7946 0958",
+    "address": "123 Supply Lane, London",
+    "status": "active",
+    "created_at": "2026-07-14T00:00:00Z"
+  }
+]
