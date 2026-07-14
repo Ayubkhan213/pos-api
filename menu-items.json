@@ -18,74 +18,30 @@
             "name": "Small",
             "price": 0.00,
             "is_sale_enabled": true,
-            "ingredients": []
-          },
-          {
-            "id": 102,
-            "name": "Medium",
-            "price": 0.50,
-            "is_sale_enabled": true,
-            "ingredients": []
+            "ingredients": [
+              { "inventory_item_id": 2, "name": "Coffee Beans", "quantity": 1 },
+              { "inventory_item_id": 1, "name": "Whole Milk", "quantity": 1 }
+            ]
           },
           {
             "id": 103,
             "name": "Large",
             "price": 1.00,
             "is_sale_enabled": true,
-            "ingredients": []
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "name": "Milk Type",
-        "variants": [
-          {
-            "id": 104,
-            "name": "Whole Milk",
-            "price": 0.00,
-            "is_sale_enabled": true,
-            "ingredients": []
-          },
-          {
-            "id": 105,
-            "name": "Oat Milk",
-            "price": 0.40,
-            "is_sale_enabled": true,
-            "ingredients": []
+            "ingredients": [
+              { "inventory_item_id": 2, "name": "Coffee Beans", "quantity": 2 },
+              { "inventory_item_id": 1, "name": "Whole Milk", "quantity": 2 }
+            ]
           }
         ]
       }
     ],
-    "addon_groups": [
-      {
-        "id": 1,
-        "name": "Syrups",
-        "min_select": 0,
-        "max_select": 2,
-        "addons": [
-          {
-            "id": 201,
-            "name": "Vanilla Syrup",
-            "price": 0.50,
-            "status": "active"
-          },
-          {
-            "id": 202,
-            "name": "Caramel Syrup",
-            "price": 0.50,
-            "status": "active"
-          }
-        ]
-      }
+    "addon_groups": [],
+    "allergies": [{ "name": "Milk", "type": "severe" }],
+    "ingredients": [
+      { "inventory_item_id": 2, "name": "Coffee Beans", "quantity": 1 },
+      { "inventory_item_id": 1, "name": "Whole Milk", "quantity": 1 }
     ],
-    "allergies": [
-      {
-        "name": "Milk",
-        "type": "severe"
-      }
-    ],
-    "ingredients": [],
     "meal": "breakfast"
   },
   {
@@ -97,73 +53,22 @@
     "status": "active",
     "is_taxable": true,
     "label_color": "#FF5733",
-    "variant_groups": [
-      {
-        "id": 3,
-        "name": "Cooking Temperature",
-        "variants": [
-          {
-            "id": 106,
-            "name": "Medium",
-            "price": 0.00,
-            "is_sale_enabled": true,
-            "ingredients": []
-          },
-          {
-            "id": 107,
-            "name": "Well Done",
-            "price": 0.00,
-            "is_sale_enabled": true,
-            "ingredients": []
-          }
-        ]
-      }
-    ],
+    "variant_groups": [],
     "addon_groups": [
       {
         "id": 2,
         "name": "Burger Add-ons",
         "min_select": 0,
-        "max_select": 4,
+        "max_select": 2,
         "addons": [
-          {
-            "id": 203,
-            "name": "Extra Cheese",
-            "price": 1.00,
-            "status": "active"
-          },
-          {
-            "id": 204,
-            "name": "Crispy Bacon",
-            "price": 1.50,
-            "status": "active"
-          },
-          {
-            "id": 205,
-            "name": "Fried Egg",
-            "price": 1.00,
-            "status": "active"
-          }
+          { "id": 203, "name": "Extra Cheese", "price": 1.00, "status": "active" }
         ]
       }
     ],
-    "allergies": [
-      {
-        "name": "Gluten",
-        "type": "mild"
-      }
-    ],
+    "allergies": [{ "name": "Gluten", "type": "mild" }],
     "ingredients": [
-      {
-        "inventory_item_id": 10,
-        "name": "Beef Patty",
-        "quantity": 1.0
-      },
-      {
-        "inventory_item_id": 11,
-        "name": "Burger Bun",
-        "quantity": 1.0
-      }
+      { "inventory_item_id": 3, "name": "Beef Patty", "quantity": 1 },
+      { "inventory_item_id": 4, "name": "Burger Bun", "quantity": 1 }
     ],
     "meal": "lunch"
   },
@@ -177,43 +82,18 @@
     "is_taxable": true,
     "label_color": "#FFC300",
     "variant_groups": [],
-    "addon_groups": [
-      {
-        "id": 3,
-        "name": "Sauces",
-        "min_select": 0,
-        "max_select": 3,
-        "addons": [
-          {
-            "id": 206,
-            "name": "Tomato Ketchup",
-            "price": 0.00,
-            "status": "active"
-          },
-          {
-            "id": 207,
-            "name": "Mayonnaise",
-            "price": 0.00,
-            "status": "active"
-          },
-          {
-            "id": 208,
-            "name": "Spicy Mayo",
-            "price": 0.30,
-            "status": "active"
-          }
-        ]
-      }
-    ],
+    "addon_groups": [],
     "allergies": [],
-    "ingredients": [],
+    "ingredients": [
+      { "inventory_item_id": 11, "name": "Potatoes", "quantity": 2 }
+    ],
     "meal": "lunch_or_dinner"
   },
   {
     "id": 4,
     "name": "Margherita Pizza",
     "price": 9.99,
-    "description": "Authentic stone-baked pizza with mozzarella and fresh basil",
+    "description": "Stone-baked pizza with mozzarella and fresh basil",
     "category_id": 2,
     "status": "active",
     "is_taxable": true,
@@ -228,57 +108,33 @@
             "name": "10 inch",
             "price": 0.00,
             "is_sale_enabled": true,
-            "ingredients": []
+            "ingredients": [
+              { "inventory_item_id": 12, "name": "Pizza Dough", "quantity": 1 },
+              { "inventory_item_id": 8, "name": "Mozzarella Cheese", "quantity": 1 }
+            ]
           },
           {
             "id": 109,
             "name": "12 inch",
             "price": 2.50,
             "is_sale_enabled": true,
-            "ingredients": []
+            "ingredients": [
+              { "inventory_item_id": 12, "name": "Pizza Dough", "quantity": 2 },
+              { "inventory_item_id": 8, "name": "Mozzarella Cheese", "quantity": 2 }
+            ]
           }
         ]
       }
     ],
-    "addon_groups": [
-      {
-        "id": 4,
-        "name": "Extra Toppings",
-        "min_select": 0,
-        "max_select": 4,
-        "addons": [
-          {
-            "id": 209,
-            "name": "Mushrooms",
-            "price": 0.75,
-            "status": "active"
-          },
-          {
-            "id": 210,
-            "name": "Pepperoni",
-            "price": 1.25,
-            "status": "active"
-          },
-          {
-            "id": 211,
-            "name": "Jalapenos",
-            "price": 0.75,
-            "status": "active"
-          }
-        ]
-      }
-    ],
+    "addon_groups": [],
     "allergies": [
-      {
-        "name": "Gluten",
-        "type": "mild"
-      },
-      {
-        "name": "Milk",
-        "type": "severe"
-      }
+      { "name": "Gluten", "type": "mild" },
+      { "name": "Milk", "type": "severe" }
     ],
-    "ingredients": [],
+    "ingredients": [
+      { "inventory_item_id": 12, "name": "Pizza Dough", "quantity": 1 },
+      { "inventory_item_id": 8, "name": "Mozzarella Cheese", "quantity": 1 }
+    ],
     "meal": "dinner"
   },
   {
@@ -290,107 +146,37 @@
     "status": "active",
     "is_taxable": true,
     "label_color": "#D2B48C",
-    "variant_groups": [
-      {
-        "id": 5,
-        "name": "Milk Option",
-        "variants": [
-          {
-            "id": 110,
-            "name": "Regular Milk",
-            "price": 0.00,
-            "is_sale_enabled": true,
-            "ingredients": []
-          },
-          {
-            "id": 111,
-            "name": "Soy Milk",
-            "price": 0.40,
-            "is_sale_enabled": true,
-            "ingredients": []
-          },
-          {
-            "id": 112,
-            "name": "Almond Milk",
-            "price": 0.40,
-            "is_sale_enabled": true,
-            "ingredients": []
-          }
-        ]
-      }
+    "variant_groups": [],
+    "addon_groups": [],
+    "allergies": [{ "name": "Milk", "type": "severe" }],
+    "ingredients": [
+      { "inventory_item_id": 2, "name": "Coffee Beans", "quantity": 1 },
+      { "inventory_item_id": 1, "name": "Whole Milk", "quantity": 1 }
     ],
-    "addon_groups": [
-      {
-        "id": 5,
-        "name": "Sweeteners",
-        "min_select": 0,
-        "max_select": 1,
-        "addons": [
-          {
-            "id": 212,
-            "name": "Honey",
-            "price": 0.30,
-            "status": "active"
-          },
-          {
-            "id": 213,
-            "name": "Sugar Free Syrup",
-            "price": 0.50,
-            "status": "active"
-          }
-        ]
-      }
-    ],
-    "allergies": [
-      {
-        "name": "Milk",
-        "type": "severe"
-      }
-    ],
-    "ingredients": [],
     "meal": "all_day"
   },
   {
     "id": 6,
     "name": "Coca-Cola",
     "price": 1.80,
-    "description": "Original taste classic soft drink (330ml)",
+    "description": "Original taste classic soft drink",
     "category_id": 3,
     "status": "active",
     "is_taxable": true,
     "label_color": "#C0392B",
-    "variant_groups": [
-      {
-        "id": 6,
-        "name": "Serving Type",
-        "variants": [
-          {
-            "id": 113,
-            "name": "Can",
-            "price": 0.00,
-            "is_sale_enabled": true,
-            "ingredients": []
-          },
-          {
-            "id": 114,
-            "name": "Glass with Ice",
-            "price": 0.20,
-            "is_sale_enabled": true,
-            "ingredients": []
-          }
-        ]
-      }
-    ],
+    "variant_groups": [],
     "addon_groups": [],
     "allergies": [],
-    "ingredients": [],
+    "ingredients": [
+      { "inventory_item_id": 15, "name": "Coke Can", "quantity": 1 }
+    ],
     "meal": "all_day"
   },
   {
     "id": 7,
     "name": "Still Water",
     "price": 1.50,
-    "description": "Pure bottled spring water (500ml)",
+    "description": "Pure bottled spring water",
     "category_id": 3,
     "status": "active",
     "is_taxable": false,
@@ -398,63 +184,39 @@
     "variant_groups": [],
     "addon_groups": [],
     "allergies": [],
-    "ingredients": [],
+    "ingredients": [
+      { "inventory_item_id": 16, "name": "Bottled Water", "quantity": 1 }
+    ],
     "meal": "all_day"
   },
   {
     "id": 8,
     "name": "Chocolate Fudge Cake",
     "price": 4.50,
-    "description": "Rich double-layer chocolate sponge cake filled with chocolate fudge",
+    "description": "Rich double-layer chocolate sponge cake",
     "category_id": 4,
     "status": "active",
     "is_taxable": true,
     "label_color": "#4A2711",
     "variant_groups": [],
-    "addon_groups": [
-      {
-        "id": 6,
-        "name": "Accompaniment",
-        "min_select": 0,
-        "max_select": 1,
-        "addons": [
-          {
-            "id": 214,
-            "name": "Vanilla Ice Cream",
-            "price": 1.00,
-            "status": "active"
-          },
-          {
-            "id": 215,
-            "name": "Pouring Cream",
-            "price": 0.50,
-            "status": "active"
-          }
-        ]
-      }
-    ],
+    "addon_groups": [],
     "allergies": [
-      {
-        "name": "Milk",
-        "type": "severe"
-      },
-      {
-        "name": "Eggs",
-        "type": "severe"
-      },
-      {
-        "name": "Gluten",
-        "type": "mild"
-      }
+      { "name": "Milk", "type": "severe" },
+      { "name": "Eggs", "type": "severe" },
+      { "name": "Gluten", "type": "mild" }
     ],
-    "ingredients": [],
+    "ingredients": [
+      { "inventory_item_id": 21, "name": "Flour", "quantity": 1 },
+      { "inventory_item_id": 22, "name": "Eggs", "quantity": 1 },
+      { "inventory_item_id": 6, "name": "Chocolate Syrup", "quantity": 1 }
+    ],
     "meal": "all_day"
   },
   {
     "id": 9,
     "name": "Red Velvet Muffin",
     "price": 2.80,
-    "description": "Delightful muffin with a sweet cream cheese core",
+    "description": "Delightful muffin with cream cheese core",
     "category_id": 4,
     "status": "active",
     "is_taxable": true,
@@ -462,16 +224,13 @@
     "variant_groups": [],
     "addon_groups": [],
     "allergies": [
-      {
-        "name": "Milk",
-        "type": "severe"
-      },
-      {
-        "name": "Gluten",
-        "type": "severe"
-      }
+      { "name": "Milk", "type": "severe" },
+      { "name": "Gluten", "type": "severe" }
     ],
-    "ingredients": [],
+    "ingredients": [
+      { "inventory_item_id": 21, "name": "Flour", "quantity": 1 },
+      { "inventory_item_id": 8, "name": "Mozzarella Cheese", "quantity": 1 }
+    ],
     "meal": "all_day"
   },
   {
@@ -486,7 +245,378 @@
     "variant_groups": [],
     "addon_groups": [],
     "allergies": [],
-    "ingredients": [],
+    "ingredients": [
+      { "inventory_item_id": 17, "name": "Oranges", "quantity": 3 }
+    ],
     "meal": "breakfast_or_lunch"
+  },
+  {
+    "id": 11,
+    "name": "Espresso",
+    "price": 2.00,
+    "description": "Single shot of pure espresso",
+    "category_id": 1,
+    "status": "active",
+    "is_taxable": true,
+    "variant_groups": [],
+    "addon_groups": [],
+    "allergies": [],
+    "ingredients": [
+      { "inventory_item_id": 2, "name": "Coffee Beans", "quantity": 1 }
+    ],
+    "meal": "breakfast"
+  },
+  {
+    "id": 12,
+    "name": "Americano",
+    "price": 2.50,
+    "description": "Espresso shots topped with hot water",
+    "category_id": 1,
+    "status": "active",
+    "is_taxable": true,
+    "variant_groups": [],
+    "addon_groups": [],
+    "allergies": [],
+    "ingredients": [
+      { "inventory_item_id": 2, "name": "Coffee Beans", "quantity": 1 }
+    ],
+    "meal": "breakfast"
+  },
+  {
+    "id": 13,
+    "name": "Hot Chocolate",
+    "price": 3.80,
+    "description": "Steamed milk with rich cocoa powder",
+    "category_id": 1,
+    "status": "active",
+    "is_taxable": true,
+    "variant_groups": [],
+    "addon_groups": [],
+    "allergies": [{ "name": "Milk", "type": "severe" }],
+    "ingredients": [
+      { "inventory_item_id": 1, "name": "Whole Milk", "quantity": 1 },
+      { "inventory_item_id": 5, "name": "Cocoa Powder", "quantity": 1 }
+    ],
+    "meal": "breakfast"
+  },
+  {
+    "id": 14,
+    "name": "Flat White",
+    "price": 3.40,
+    "description": "Espresso with microfoam poured over",
+    "category_id": 1,
+    "status": "active",
+    "is_taxable": true,
+    "variant_groups": [],
+    "addon_groups": [],
+    "allergies": [{ "name": "Milk", "type": "severe" }],
+    "ingredients": [
+      { "inventory_item_id": 2, "name": "Coffee Beans", "quantity": 1 },
+      { "inventory_item_id": 1, "name": "Whole Milk", "quantity": 1 }
+    ],
+    "meal": "breakfast"
+  },
+  {
+    "id": 15,
+    "name": "Mocha",
+    "price": 3.90,
+    "description": "Espresso combined with chocolate syrup and steamed milk",
+    "category_id": 1,
+    "status": "active",
+    "is_taxable": true,
+    "variant_groups": [],
+    "addon_groups": [],
+    "allergies": [{ "name": "Milk", "type": "severe" }],
+    "ingredients": [
+      { "inventory_item_id": 2, "name": "Coffee Beans", "quantity": 1 },
+      { "inventory_item_id": 1, "name": "Whole Milk", "quantity": 1 },
+      { "inventory_item_id": 6, "name": "Chocolate Syrup", "quantity": 1 }
+    ],
+    "meal": "breakfast"
+  },
+  {
+    "id": 16,
+    "name": "Matcha Latte",
+    "price": 4.00,
+    "description": "Fine matcha green tea powder whisked with milk",
+    "category_id": 1,
+    "status": "active",
+    "is_taxable": true,
+    "variant_groups": [],
+    "addon_groups": [],
+    "allergies": [{ "name": "Milk", "type": "severe" }],
+    "ingredients": [
+      { "inventory_item_id": 1, "name": "Whole Milk", "quantity": 1 },
+      { "inventory_item_id": 7, "name": "Matcha Powder", "quantity": 1 }
+    ],
+    "meal": "breakfast"
+  },
+  {
+    "id": 17,
+    "name": "Double Beef Burger",
+    "price": 11.95,
+    "description": "Double beef patty with cheese, lettuce, and tomato",
+    "category_id": 2,
+    "status": "active",
+    "is_taxable": true,
+    "variant_groups": [],
+    "addon_groups": [],
+    "allergies": [
+      { "name": "Gluten", "type": "mild" },
+      { "name": "Milk", "type": "severe" }
+    ],
+    "ingredients": [
+      { "inventory_item_id": 3, "name": "Beef Patty", "quantity": 2 },
+      { "inventory_item_id": 4, "name": "Burger Bun", "quantity": 1 },
+      { "inventory_item_id": 8, "name": "Cheese Slice", "quantity": 2 }
+    ],
+    "meal": "lunch_or_dinner"
+  },
+  {
+    "id": 18,
+    "name": "Cheese Burger",
+    "price": 9.50,
+    "description": "Standard single beef burger with loaded cheese",
+    "category_id": 2,
+    "status": "active",
+    "is_taxable": true,
+    "variant_groups": [],
+    "addon_groups": [],
+    "allergies": [
+      { "name": "Gluten", "type": "mild" },
+      { "name": "Milk", "type": "severe" }
+    ],
+    "ingredients": [
+      { "inventory_item_id": 3, "name": "Beef Patty", "quantity": 1 },
+      { "inventory_item_id": 4, "name": "Burger Bun", "quantity": 1 },
+      { "inventory_item_id": 8, "name": "Cheese Slice", "quantity": 1 }
+    ],
+    "meal": "lunch_or_dinner"
+  },
+  {
+    "id": 19,
+    "name": "Bacon Burger",
+    "price": 10.50,
+    "description": "Juicy beef burger topped with crispy smoked bacon strips",
+    "category_id": 2,
+    "status": "active",
+    "is_taxable": true,
+    "variant_groups": [],
+    "addon_groups": [],
+    "allergies": [{ "name": "Gluten", "type": "mild" }],
+    "ingredients": [
+      { "inventory_item_id": 3, "name": "Beef Patty", "quantity": 1 },
+      { "inventory_item_id": 4, "name": "Burger Bun", "quantity": 1 },
+      { "inventory_item_id": 9, "name": "Bacon", "quantity": 2 }
+    ],
+    "meal": "lunch_or_dinner"
+  },
+  {
+    "id": 20,
+    "name": "Chicken Burger",
+    "price": 8.50,
+    "description": "Crispy chicken breast patty burger with lettuce and mayo",
+    "category_id": 2,
+    "status": "active",
+    "is_taxable": true,
+    "variant_groups": [],
+    "addon_groups": [],
+    "allergies": [{ "name": "Gluten", "type": "mild" }],
+    "ingredients": [
+      { "inventory_item_id": 10, "name": "Chicken Patty", "quantity": 1 },
+      { "inventory_item_id": 4, "name": "Burger Bun", "quantity": 1 }
+    ],
+    "meal": "lunch_or_dinner"
+  },
+  {
+    "id": 21,
+    "name": "Pepperoni Pizza",
+    "price": 11.99,
+    "description": "Freshly rolled pizza dough covered in pepperoni and cheese",
+    "category_id": 2,
+    "status": "active",
+    "is_taxable": true,
+    "variant_groups": [],
+    "addon_groups": [],
+    "allergies": [
+      { "name": "Gluten", "type": "mild" },
+      { "name": "Milk", "type": "severe" }
+    ],
+    "ingredients": [
+      { "inventory_item_id": 12, "name": "Pizza Dough", "quantity": 1 },
+      { "inventory_item_id": 8, "name": "Mozzarella Cheese", "quantity": 1 },
+      { "inventory_item_id": 13, "name": "Pepperoni", "quantity": 10 }
+    ],
+    "meal": "dinner"
+  },
+  {
+    "id": 22,
+    "name": "Veggie Pizza",
+    "price": 10.99,
+    "description": "Pizza loaded with tomatoes, onions, mushrooms, and bell peppers",
+    "category_id": 2,
+    "status": "active",
+    "is_taxable": true,
+    "variant_groups": [],
+    "addon_groups": [],
+    "allergies": [
+      { "name": "Gluten", "type": "mild" },
+      { "name": "Milk", "type": "severe" }
+    ],
+    "ingredients": [
+      { "inventory_item_id": 12, "name": "Pizza Dough", "quantity": 1 },
+      { "inventory_item_id": 8, "name": "Mozzarella Cheese", "quantity": 1 },
+      { "inventory_item_id": 14, "name": "Mixed Vegetables", "quantity": 1 }
+    ],
+    "meal": "dinner"
+  },
+  {
+    "id": 23,
+    "name": "Apple Juice",
+    "price": 2.50,
+    "description": "Cold pressed organic sweet apple juice",
+    "category_id": 3,
+    "status": "active",
+    "is_taxable": false,
+    "variant_groups": [],
+    "addon_groups": [],
+    "allergies": [],
+    "ingredients": [
+      { "inventory_item_id": 18, "name": "Apples", "quantity": 3 }
+    ],
+    "meal": "breakfast_or_lunch"
+  },
+  {
+    "id": 24,
+    "name": "Lemonade",
+    "price": 2.20,
+    "description": "House brewed fresh sparkling sweet lemonade",
+    "category_id": 3,
+    "status": "active",
+    "is_taxable": false,
+    "variant_groups": [],
+    "addon_groups": [],
+    "allergies": [],
+    "ingredients": [
+      { "inventory_item_id": 19, "name": "Lemons", "quantity": 2 }
+    ],
+    "meal": "all_day"
+  },
+  {
+    "id": 25,
+    "name": "Iced Tea",
+    "price": 2.40,
+    "description": "Classic home brewed sweet black iced tea",
+    "category_id": 3,
+    "status": "active",
+    "is_taxable": false,
+    "variant_groups": [],
+    "addon_groups": [],
+    "allergies": [],
+    "ingredients": [
+      { "inventory_item_id": 20, "name": "Tea Leaves", "quantity": 1 }
+    ],
+    "meal": "all_day"
+  },
+  {
+    "id": 26,
+    "name": "Apple Pie",
+    "price": 4.20,
+    "description": "Golden crust apple pie filled with stewed cinnamon apples",
+    "category_id": 4,
+    "status": "active",
+    "is_taxable": true,
+    "variant_groups": [],
+    "addon_groups": [],
+    "allergies": [{ "name": "Gluten", "type": "mild" }],
+    "ingredients": [
+      { "inventory_item_id": 18, "name": "Apples", "quantity": 2 },
+      { "inventory_item_id": 21, "name": "Flour", "quantity": 1 },
+      { "inventory_item_id": 25, "name": "Cinnamon", "quantity": 1 }
+    ],
+    "meal": "all_day"
+  },
+  {
+    "id": 27,
+    "name": "Buttery Croissant",
+    "price": 2.20,
+    "description": "Flaky French pastry prepared with real dairy butter",
+    "category_id": 4,
+    "status": "active",
+    "is_taxable": true,
+    "variant_groups": [],
+    "addon_groups": [],
+    "allergies": [
+      { "name": "Gluten", "type": "severe" },
+      { "name": "Milk", "type": "severe" }
+    ],
+    "ingredients": [
+      { "inventory_item_id": 21, "name": "Flour", "quantity": 1 },
+      { "inventory_item_id": 23, "name": "Butter", "quantity": 1 }
+    ],
+    "meal": "breakfast"
+  },
+  {
+    "id": 28,
+    "name": "Blueberry Muffin",
+    "price": 2.80,
+    "description": "Muffin baked with wild blueberries",
+    "category_id": 4,
+    "status": "active",
+    "is_taxable": true,
+    "variant_groups": [],
+    "addon_groups": [],
+    "allergies": [
+      { "name": "Gluten", "type": "severe" },
+      { "name": "Eggs", "type": "severe" }
+    ],
+    "ingredients": [
+      { "inventory_item_id": 21, "name": "Flour", "quantity": 1 },
+      { "inventory_item_id": 22, "name": "Eggs", "quantity": 1 },
+      { "inventory_item_id": 24, "name": "Blueberries", "quantity": 5 }
+    ],
+    "meal": "breakfast_or_lunch"
+  },
+  {
+    "id": 29,
+    "name": "Cinnamon Roll",
+    "price": 3.00,
+    "description": "Baked glazed roll layered with spicy cinnamon sugar",
+    "category_id": 4,
+    "status": "active",
+    "is_taxable": true,
+    "variant_groups": [],
+    "addon_groups": [],
+    "allergies": [
+      { "name": "Gluten", "type": "severe" },
+      { "name": "Milk", "type": "severe" }
+    ],
+    "ingredients": [
+      { "inventory_item_id": 21, "name": "Flour", "quantity": 1 },
+      { "inventory_item_id": 23, "name": "Butter", "quantity": 1 },
+      { "inventory_item_id": 25, "name": "Cinnamon", "quantity": 1 }
+    ],
+    "meal": "breakfast"
+  },
+  {
+    "id": 30,
+    "name": "Fudge Brownie",
+    "price": 3.50,
+    "description": "Chewy, dense chocolate fudge brownie",
+    "category_id": 4,
+    "status": "active",
+    "is_taxable": true,
+    "variant_groups": [],
+    "addon_groups": [],
+    "allergies": [
+      { "name": "Gluten", "type": "mild" },
+      { "name": "Eggs", "type": "severe" }
+    ],
+    "ingredients": [
+      { "inventory_item_id": 21, "name": "Flour", "quantity": 1 },
+      { "inventory_item_id": 22, "name": "Eggs", "quantity": 1 },
+      { "inventory_item_id": 6, "name": "Chocolate Syrup", "quantity": 1 }
+    ],
+    "meal": "all_day"
   }
 ]
