@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Hot Drinks",
+    "parent_id": null,
+    "status": "active",
+    "sort_order": 1,
+    "image_path": "assets/images/hot_drinks.png",
+    "created_at": "2026-07-14T00:00:00Z"
+  },
+  {
+    "id": 2,
+    "name": "Burgers",
+    "parent_id": null,
+    "status": "active",
+    "sort_order": 2,
+    "image_path": "assets/images/burgers.png",
+    "created_at": "2026-07-14T00:00:00Z"
+  }
+]
