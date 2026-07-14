@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Cappuccino",
+    "price": 3.50,
+    "description": "Rich espresso with steamed milk foam",
+    "category_id": 1,
+    "status": "active",
+    "is_taxable": 1,
+    "label_color": "#8B5A2B",
+    "image_path": "assets/images/cappuccino.png",
+    "variant_groups_json": "[]",
+    "addon_groups_json": "[]",
+    "allergies_json": "[\"Milk\"]",
+    "ingredients_json": "[]",
+    "tags_json": "[\"hot\", \"beverage\"]",
+    "nutrition_json": "{}",
+    "created_at": "2026-07-14T00:00:00Z"
+  },
+  {
+    "id": 2,
+    "name": "Classic Beef Burger",
+    "price": 8.95,
+    "description": "Gourmet beef patty with lettuce, tomato, and house sauce",
+    "category_id": 2,
+    "status": "active",
+    "is_taxable": 1,
+    "label_color": "#FF5733",
+    "image_path": "assets/images/burger.png",
+    "variant_groups_json": "[]",
+    "addon_groups_json": "[]",
+    "allergies_json": "[\"Gluten\"]",
+    "ingredients_json": "[]",
+    "tags_json": "[\"burger\", \"mains\"]",
+    "nutrition_json": "{}",
+    "created_at": "2026-07-14T00:00:00Z"
+  }
+]
