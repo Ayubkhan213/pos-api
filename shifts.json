@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "started_by": "Super Admin",
+    "user_id": 1,
+    "ended_by": null,
+    "started_at": "2026-07-14T08:00:00Z",
+    "ended_at": null,
+    "opening_float": 100.00,
+    "closing_float": null,
+    "notes": "Morning Shift Started",
+    "status": "open"
+  }
+]
