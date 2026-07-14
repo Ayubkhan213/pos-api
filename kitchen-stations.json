@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "name": "Hot Kitchen",
+    "description": "Grill and fry station",
+    "status": "active",
+    "created_at": "2026-07-14T00:00:00Z"
+  },
+  {
+    "id": 2,
+    "name": "Bar",
+    "description": "Drinks preparation station",
+    "status": "active",
+    "created_at": "2026-07-14T00:00:00Z"
+  }
+]
